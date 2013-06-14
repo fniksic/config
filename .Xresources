@@ -1,0 +1,7 @@
+urxvt.background: Black
+urxvt.foreground: AntiqueWhite
+urxvt.font: [codeset=UTF-8]xft:DejaVu Sans Mono:antialias=true:size=10
+urxvt.geometry: 80x25
+urxvt.scrollBar: false
+urxvt.loginShell: true
+urxvt.title: Terminal

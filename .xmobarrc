@@ -1,0 +1,10 @@
+Config { font = "xft:arial:bold:size=11"
+       , bgColor = "#222222"
+       , fgColor = "#777777"
+       , position = TopW L 90
+       , lowerOnStart = True
+       , commands = [ Run Date "%e-%b %k:%M" "date" 10
+                    , Run StdinReader
+                    ]
+       , template = "%StdinReader% }{ %date%"
+       }
